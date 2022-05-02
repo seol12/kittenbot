@@ -1,0 +1,19 @@
+{
+  "name": "kittenbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "cross-env NODE_ENV=Runningcat node index.js"
+  },
+  "author": "jjg",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cross-env": "^7.0.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
